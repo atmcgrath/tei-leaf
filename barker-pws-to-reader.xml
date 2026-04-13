@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter Template</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Collaboratory for Writing and Research on Culture (CWRC https://cwrc.ca) and Linked Editing Academic Framework (LEAF https://leaf-vre.org).</publisher>
+				<availability>
+					<licence>Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This template was created by members of CWRC and LEAF.</p>				
+			</sourceDesc>		
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+			<projectDesc>
+				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+			</projectDesc>		
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2025-06-04" who="diane_jakacki">Revised letter template for use with LEAF-Writer editor.</change>
+		</revisionDesc>
+</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>To the Reader - Jane Barker</title></head>
+				<opener>
+					<dateline><date>Richmond, Candlemas-Day.</date>
+					</dateline>
+					<salute>To the Reader</salute>
+				</opener>
+				<p>The two former volumes of Novels having met with a favourable reception (much beyond their desert), encourages me to perform my promise in pursuing the sequel of Galesia’s story.</p><p>But I doubt my reader will say, Why so long about it? And why a history reduced into patches? Especially since histories at large are so fashionable in this age; viz. Robinson Crusoe, and Moll Flanders, Colonel Jack, and Sally Salisbury, with many other heroes and heroines.</p><p>Why, truly, as to the first, I had lost my Galesia, she being gone from St. Germains, and I retired into an obscure corner of the world. As to the second, you’ll find in the following pages, by what steps and means it was framed into this method.</p><p>And now, having given you this account, I think I ought to say something in favour of patch‑work, the better to recommend it to my female readers, as well in their discourse as their needle‑work; which I might do with justice, if my genius were capable. But indeed, I am not much of an historian; and in the little I have read, I do not remember any thing recorded relating to patch‑work, since the patriarch Joseph (whose garment was of sundry colours), by which means it has been common in all ages; and ’tis certain, the uncommonness of any fashion renders it new to the ladies.</p><p>And I do not know but this may have been the chief reason why our ladies, in this latter age, have pleased themselves with this sort of entertainment; for whenever one sees a set of ladies together, their sentiments are as differently mixed as the patches in their work: to wit, Whigs and Tories, High‑Church and Low‑Church, Jacobites and Williamites, and many more distinctions, which they divide and subdivide, till at last they make this disunion meet in an harmonious tea‑table entertainment.</p><p>This puts me in mind of what I have heard some philosophers assert, about the clashing of atoms, which at last united to compose this glorious fabric of the Universe.</p><p>Forgive me, kind reader, for carrying the metaphor too high; by which means I am out of my sphere, and so can say nothing of the male patch‑workers. For my high flight in favour of the ladies made a mere Icarus of me, melted my wings, and tumbled me headlong down, I know not where.</p>
+				<closer>
+					<salute>Who is,</salute><salute>Your humble servant,</salute>
+					<signed>Jane Barker</signed><signed/>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
