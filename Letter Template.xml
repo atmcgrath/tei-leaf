@@ -27,18 +27,16 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter Title</title>
-				</head>
+					<title>To the Reader - Jane Barker</title></head>
 				<opener>
-					<dateline>
-						<date>Some place and date described by the author.</date>
+					<dateline><date>Richmond, Candlemas-Day.</date>
 					</dateline>
-					<salute>Some salutation, e.g. "Dearest Miguel"</salute>
+					<salute>To the Reader</salute>
 				</opener>
-				<p>Sample letter content</p>
+				<p/><p>The two former volumes of Novus having met with a favourable reception (much beyond their desert), encourages me to perform my promise in pursuing the sequel of Galesia’s story.</p><p>But I doubt my reader will say, Why so long about it? And why a history reduced into patches? Especially since histories at large are so fashionable in this age; viz. Robinson Crusoe, and Moll Flanders, Colonel Jack, and Sally Salisbury, with many other heroes and heroines.</p>
 				<closer>
-					<salute>Some closing salutation, e.g. "With love..."</salute>
-					<signed>Sender name and/or signature.</signed>
+					<salute>Who is,</salute><salute>Your humble servant,</salute>
+					<signed>Jane Barker</signed><signed/>
 				</closer>
 			</div>
 		</body>
