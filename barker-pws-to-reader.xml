@@ -14,7 +14,86 @@
 				<p>From Jane Barker's 1723 Patchwork-Screen for the Ladies</p>				
 			</sourceDesc>		
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/atmcgrath/tei-leaf/main/barker-pws-to-reader.xml?work_annotation_20260413153357576",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-04-13T19:33:57.576Z",
+	"dcterms:modified": "2026-04-13T19:33:57.576Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/atmcgrath",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Tweedy McGrath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/atmcgrath/tei-leaf/main/barker-pws-to-reader.xml?work_annotation_20260413153357576#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/atmcgrath/tei-leaf/main/barker-pws-to-reader.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/atmcgrath/tei-leaf/main/barker-pws-to-reader.xml?work_annotation_20260413153357576#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q483034",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
 			<projectDesc>
 				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
 			</projectDesc>		
@@ -33,7 +112,7 @@
 					</dateline>
 					<salute>To the Reader</salute>
 				</opener>
-				<p>The two former volumes of Novels having met with a favourable reception (much beyond their desert), encourages me to perform my promise in pursuing the sequel of Galesia’s story.</p><p>But I doubt my reader will say, Why so long about it? And why a history reduced into patches? Especially since histories at large are so fashionable in this age; viz. Robinson Crusoe, and Moll Flanders, Colonel Jack, and Sally Salisbury, with many other heroes and heroines.</p><p>Why, truly, as to the first, I had lost my Galesia, she being gone from St. Germains, and I retired into an obscure corner of the world. As to the second, you’ll find in the following pages, by what steps and means it was framed into this method.</p><p>And now, having given you this account, I think I ought to say something in favour of patch‑work, the better to recommend it to my female readers, as well in their discourse as their needle‑work; which I might do with justice, if my genius were capable. But indeed, I am not much of an historian; and in the little I have read, I do not remember any thing recorded relating to patch‑work, since the patriarch Joseph (whose garment was of sundry colours), by which means it has been common in all ages; and ’tis certain, the uncommonness of any fashion renders it new to the ladies.</p><p>And I do not know but this may have been the chief reason why our ladies, in this latter age, have pleased themselves with this sort of entertainment; for whenever one sees a set of ladies together, their sentiments are as differently mixed as the patches in their work: to wit, Whigs and Tories, High‑Church and Low‑Church, Jacobites and Williamites, and many more distinctions, which they divide and subdivide, till at last they make this disunion meet in an harmonious tea‑table entertainment.</p><p>This puts me in mind of what I have heard some philosophers assert, about the clashing of atoms, which at last united to compose this glorious fabric of the Universe.</p><p>Forgive me, kind reader, for carrying the metaphor too high; by which means I am out of my sphere, and so can say nothing of the male patch‑workers. For my high flight in favour of the ladies made a mere Icarus of me, melted my wings, and tumbled me headlong down, I know not where.</p>
+				<p>The two former volumes of Novels having met with a favourable reception (much beyond their desert), encourages me to perform my promise in pursuing the sequel of Galesia’s story.</p><p>But I doubt my reader will say, Why so long about it? And why a history reduced into patches? Especially since histories at large are so fashionable in this age; viz. <title key="Robinson Crusoe" ref="http://www.wikidata.org/entity/Q483034">Robinson Crusoe</title>, and Moll Flanders, Colonel Jack, and Sally Salisbury, with many other heroes and heroines.</p><p>Why, truly, as to the first, I had lost my Galesia, she being gone from St. Germains, and I retired into an obscure corner of the world. As to the second, you’ll find in the following pages, by what steps and means it was framed into this method.</p><p>And now, having given you this account, I think I ought to say something in favour of patch‑work, the better to recommend it to my female readers, as well in their discourse as their needle‑work; which I might do with justice, if my genius were capable. But indeed, I am not much of an historian; and in the little I have read, I do not remember any thing recorded relating to patch‑work, since the patriarch Joseph (whose garment was of sundry colours), by which means it has been common in all ages; and ’tis certain, the uncommonness of any fashion renders it new to the ladies.</p><p>And I do not know but this may have been the chief reason why our ladies, in this latter age, have pleased themselves with this sort of entertainment; for whenever one sees a set of ladies together, their sentiments are as differently mixed as the patches in their work: to wit, Whigs and Tories, High‑Church and Low‑Church, Jacobites and Williamites, and many more distinctions, which they divide and subdivide, till at last they make this disunion meet in an harmonious tea‑table entertainment.</p><p>This puts me in mind of what I have heard some philosophers assert, about the clashing of atoms, which at last united to compose this glorious fabric of the Universe.</p><p>Forgive me, kind reader, for carrying the metaphor too high; by which means I am out of my sphere, and so can say nothing of the male patch‑workers. For my high flight in favour of the ladies made a mere Icarus of me, melted my wings, and tumbled me headlong down, I know not where.</p>
 				<closer>
 					<salute>Who is,</salute><salute>Your humble servant,</salute>
 					<signed>Jane Barker</signed><signed/>
